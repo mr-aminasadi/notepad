@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Notepad</title>
+</head>
+<body>
+    <nav>
+        <h1>Browse Notepad</h1>
+        <p>A place to remind yourself</p>
+    </nav>
+    <section class="app">
+        <div class="note-write">
+            <div class="text">
+                <h4>New note ...</h4>
+                <p id="date-save"></p>
+            </div>
+            <form action="#" id="form">
+                <label for="note"></label>
+                <textarea id="note"></textarea>
+                <input type="submit" class="button" value="save">
+            </form>
+        </div>
+        <div class="note-show">
+            <input type="search" name="" id="search" placeholder="&#x270e; Enter Keyword">
+            <div class="note-list" id="note-list">
+                <!-- <div class="note-style">
+                    <span class="date-note">2/4/2020</span>
+                    <p class="text-note">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit vero laboriosam dolorem expedita quaerat facilis, earum provident a totam. Adipisci praesentium, sequi error quod eveniet tempora id nemo delectus accusantium ratione dolore harum fugiat porro quos temporibus quam nobis nostrum.</p>
+                    <div class="trash-sharp">
+                        <i class="fa fa-trash icon"></i>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    
+   
+    
+
+
+    <!-- script -->
+    <script src="/app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
